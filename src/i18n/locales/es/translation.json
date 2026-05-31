@@ -1,0 +1,380 @@
+{
+  "common": {
+    "back": "Volver",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "yes": "Sí",
+    "no": "No",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "export": "Exportar",
+    "print": "Imprimir",
+    "refresh": "Actualizar",
+    "noData": "No se encontraron datos",
+    "required": "Campo obligatorio",
+    "optional": "Opcional"
+  },
+
+  "language": {
+    "select": "Idioma",
+    "pt": "Português",
+    "es": "Español",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية",
+    "fa": "فارسی"
+  },
+
+  "landing": {
+    "heroTitle": "Centro de Acogida Especial Familias Ebenezer",
+    "subtitle": "Sistema de Programación de Lavandería",
+    "accessButton": "Acceder con QR Code",
+    "firstAccess": "¿Primer acceso? Regístrese",
+    "section": {
+      "title": "Acceso Simplificado",
+      "description": "Utilice su QR Code personal para acceder a la agenda de lavandería. Para nuevos residentes, realice el registro a continuación."
+    },
+    "features": {
+      "qr": { "title": "QR Code", "description": "Acceda rápidamente con su código personal" },
+      "schedule": { "title": "Programación", "description": "Reserve máquinas y secadoras con facilidad" },
+      "secure": { "title": "Seguro", "description": "Sistema aprobado por la administración" }
+    },
+    "institution": {
+      "name": "Centro de Acogida Especial para Familias Ebenezer",
+      "address": "Av. Professor Edgar Santos, nº 780, Vila Nhocune, São Paulo – SP, CEP 03560-080",
+      "org": "Ciudad de São Paulo / Secretaría Municipal de Asistencia y Desarrollo Social"
+    },
+    "register": "Registrarse",
+    "enter": "Entrar"
+  },
+
+  "login": {
+    "title": "Acceso al Sistema",
+    "subtitle": "Ingrese sus credenciales para continuar",
+    "residentTab": "Residente",
+    "adminTab": "Admin",
+    "roomNumber": "Número de Habitación",
+    "roomPlaceholder": "Ej: 101",
+    "pin": "PIN (4 dígitos)",
+    "pinPlaceholder": "****",
+    "adminToken": "Token de Acceso",
+    "adminTokenPlaceholder": "Ingrese su token de administrador",
+    "enterButton": "Entrar",
+    "entering": "Entrando...",
+    "firstAccess": "¿Primer acceso?",
+    "registerLink": "Regístrese",
+    "fillAllFields": "Complete todos los campos",
+    "insertToken": "Ingrese el token de acceso"
+  },
+
+  "register": {
+    "title": "Registro de Residente",
+    "subtitle": "Complete sus datos para solicitar acceso al sistema",
+    "steps": {
+      "form": "Datos Personales",
+      "camera": "Foto",
+      "success": "Completado"
+    },
+    "name": "Nombre Completo",
+    "namePlaceholder": "Su nombre completo",
+    "roomNumber": "Número de Habitación",
+    "roomPlaceholder": "Ej: 101",
+    "phone": "Teléfono",
+    "phonePlaceholder": "(11) 99999-9999",
+    "pin": "PIN de Acceso (4 dígitos)",
+    "pinPlaceholder": "****",
+    "pinConfirm": "Confirmar PIN",
+    "pinMismatch": "Los PINs no coinciden",
+    "photo": "Foto",
+    "photoRequired": "Foto obligatoria",
+    "takePhoto": "Tomar Foto",
+    "retakePhoto": "Tomar Nuevamente",
+    "next": "Siguiente",
+    "submit": "Enviar Registro",
+    "submitting": "Enviando...",
+    "success_title": "¡Registro Enviado!",
+    "success_message": "Su registro fue enviado con éxito. Espere la aprobación del administrador antes de utilizar el sistema.",
+    "pending": "Estado: Esperando Aprobación",
+    "backHome": "Volver al Inicio",
+    "errors": {
+      "nameRequired": "El nombre es obligatorio",
+      "roomRequired": "El número de habitación es obligatorio",
+      "pinRequired": "El PIN es obligatorio",
+      "pinLength": "El PIN debe tener 4 dígitos",
+      "photoRequired": "La foto es obligatoria"
+    }
+  },
+
+  "dashboard": {
+    "tabs": {
+      "book": "Programar",
+      "myBookings": "Mis Reservas",
+      "profile": "Perfil"
+    },
+    "book": {
+      "title": "Programar Máquina",
+      "selectDate": "Seleccionar Fecha",
+      "selectType": "Tipo de Equipo",
+      "washingMachine": "Lavadora",
+      "dryer": "Secadora",
+      "available": "Disponible",
+      "occupied": "Ocupado",
+      "outOfService": "Fuera de Servicio",
+      "maintenance": "Mantenimiento",
+      "myBooking": "Mi Reserva",
+      "noSlots": "No hay horarios disponibles para esta fecha",
+      "confirmTitle": "Confirmar Programación",
+      "confirmMessage": "¿Desea confirmar la programación para {{machine}} de {{start}} a {{end}} el {{date}}?",
+      "bookButton": "Confirmar",
+      "pendingConfirmation": "Esperando Confirmación",
+      "ruleWarning": "No es posible programar más de una máquina en el mismo horario"
+    },
+    "myBookings": {
+      "title": "Mis Reservas",
+      "upcoming": "Próximas",
+      "past": "Historial",
+      "empty": "No tiene reservas",
+      "cancelButton": "Cancelar",
+      "cancelConfirm": "¿Desea cancelar esta reserva?",
+      "cancelWarning": "Las cancelaciones deben hacerse con al menos 1 hora de anticipación",
+      "checkIn": "Hacer Check-in",
+      "statuses": {
+        "PENDING_CONFIRMATION": "Esperando Confirmación",
+        "CONFIRMED": "Confirmado",
+        "CANCELLED_BY_RESIDENT": "Cancelado por usted",
+        "CANCELLED_BY_ADMIN": "Cancelado por el Admin",
+        "COMPLETED": "Completado",
+        "NO_SHOW": "No se presentó"
+      }
+    },
+    "profile": {
+      "title": "Mi Perfil",
+      "room": "Habitación",
+      "phone": "Teléfono",
+      "status": "Estado",
+      "memberSince": "Residente desde",
+      "totalBookings": "Total de Reservas",
+      "noShows": "No presentaciones",
+      "logout": "Salir del Sistema"
+    },
+    "header": {
+      "greeting": "Hola, {{name}}",
+      "adminPanel": "Panel Admin",
+      "logout": "Salir"
+    }
+  },
+
+  "admin": {
+    "header": {
+      "title": "Panel Administrativo",
+      "subtitle": "CAE Ebenezer — Gestión de Lavandería"
+    },
+    "tabs": {
+      "dashboard": "Dashboard",
+      "schedule": "Agenda",
+      "approvals": "Aprobaciones",
+      "machines": "Máquinas",
+      "users": "Residentes",
+      "analytics": "Análisis",
+      "audit": "Auditoría",
+      "settings": "Configuración"
+    },
+    "dashboard_tab": {
+      "todayBookings": "Reservas Hoy",
+      "pendingApprovals": "Aprobaciones Pendientes",
+      "machinesOutOfService": "Máquinas Fuera de Servicio",
+      "noShowsWeek": "No Presentaciones (7 días)",
+      "totalResidents": "Total de Residentes",
+      "confirmedToday": "Confirmados Hoy"
+    },
+    "schedule": {
+      "title": "Agenda del Día",
+      "selectDate": "Seleccionar Fecha",
+      "printPDF": "Imprimir / PDF",
+      "allMachines": "Todas las Máquinas",
+      "confirm": "Confirmar",
+      "cancel": "Cancelar",
+      "amend": "Modificar",
+      "noBookings": "No hay reservas para esta fecha"
+    },
+    "approvals": {
+      "title": "Aprobaciones Pendientes",
+      "empty": "Ningún registro esperando aprobación",
+      "approve": "Aprobar",
+      "reject": "Rechazar",
+      "rejectReason": "Motivo del Rechazo",
+      "rejectReasonPlaceholder": "Informe el motivo...",
+      "approvedBy": "Aprobado por",
+      "registeredAt": "Registrado en"
+    },
+    "machines": {
+      "title": "Gestión de Máquinas",
+      "add": "Agregar Máquina",
+      "addTitle": "Nueva Máquina",
+      "name": "Nombre de la Máquina",
+      "namePlaceholder": "Ej: MÁQUINA 04",
+      "type": "Tipo",
+      "washingMachine": "Lavadora",
+      "dryer": "Secadora",
+      "status": "Estado",
+      "active": "Activa",
+      "outOfService": "Fuera de Servicio",
+      "maintenance": "Mantenimiento",
+      "statusNote": "Observación sobre Estado",
+      "statusNotePlaceholder": "Ej: Esperando pieza de repuesto",
+      "remove": "Eliminar Máquina",
+      "removeConfirm": "¿Confirma la eliminación de {{name}}? Esta acción no se puede deshacer.",
+      "saveStatus": "Guardar Estado"
+    },
+    "users": {
+      "title": "Gestión de Residentes",
+      "search": "Buscar residente...",
+      "filterRole": "Filtrar por Cargo",
+      "filterStatus": "Filtrar por Estado",
+      "name": "Nombre",
+      "room": "Habitación",
+      "role": "Cargo",
+      "status": "Estado",
+      "bookings": "Reservas",
+      "registeredAt": "Registrado en",
+      "actions": "Acciones",
+      "changeRole": "Cambiar Cargo",
+      "suspend": "Suspender",
+      "unsuspend": "Reactivar",
+      "delete": "Eliminar",
+      "deleteConfirm": "¿Confirma la eliminación de {{name}}? Esta acción es irreversible.",
+      "roles": {
+        "MASTER_ADMIN": "Admin Master",
+        "OPERATIONAL_ADMIN": "Admin Operacional (OSE)",
+        "VIEWER": "Visualizador",
+        "RESIDENT": "Residente"
+      },
+      "statuses": {
+        "PENDING": "Esperando",
+        "APPROVED": "Aprobado",
+        "REJECTED": "Rechazado",
+        "SUSPENDED": "Suspendido"
+      }
+    },
+    "amendment": {
+      "title": "Modificar Programación",
+      "reason": "Motivo de la Modificación",
+      "reasonPlaceholder": "Describa el motivo de la modificación (obligatorio)...",
+      "newSlot": "Nuevo Horario",
+      "submit": "Confirmar Modificación",
+      "reasonRequired": "El motivo de la modificación es obligatorio"
+    },
+    "analytics": {
+      "title": "Análisis e Informes",
+      "period": {
+        "7days": "Últimos 7 días",
+        "30days": "Últimos 30 días",
+        "90days": "Últimos 90 días",
+        "custom": "Personalizado"
+      },
+      "charts": {
+        "utilization": "Utilización por Máquina",
+        "bookingTrend": "Tendencia de Reservas",
+        "heatmap": "Horarios Más Populares",
+        "noShowRate": "Tasa de No Presentación",
+        "topResidents": "Residentes Más Activos"
+      },
+      "exportCSV": "Exportar CSV",
+      "exportPDF": "Exportar PDF"
+    },
+    "audit": {
+      "title": "Log de Auditoría",
+      "user": "Usuario",
+      "action": "Acción",
+      "target": "Objetivo",
+      "date": "Fecha/Hora",
+      "noLogs": "Ningún registro encontrado"
+    },
+    "settings": {
+      "title": "Configuraciones del Sistema",
+      "maxBookingsPerDay": "Máximo de Reservas por Día (por residente)",
+      "bookingWindowDays": "Ventana de Programación (días adelante)",
+      "cancellationWindowHours": "Plazo para Cancelación (horas antes del horario)",
+      "language": "Idioma Predeterminado de la Plataforma",
+      "google": {
+        "title": "Integración Google",
+        "sheets": "Google Sheets",
+        "calendar": "Google Calendar",
+        "syncNow": "Sincronizar Ahora",
+        "lastSync": "Última sincronización"
+      },
+      "notifications": {
+        "title": "Notificaciones",
+        "email": "Correo electrónico",
+        "whatsapp": "WhatsApp"
+      },
+      "save": "Guardar Configuraciones"
+    }
+  },
+
+  "machines": {
+    "WASHING_MACHINE": "Lavadora",
+    "DRYER": "Secadora",
+    "statuses": {
+      "ACTIVE": "Activa",
+      "OUT_OF_SERVICE": "Fuera de Servicio",
+      "MAINTENANCE": "Mantenimiento"
+    }
+  },
+
+  "errors": {
+    "generic": "Ocurrió un error. Intente nuevamente.",
+    "unauthorized": "No tiene permiso para realizar esta acción.",
+    "notFound": "Página no encontrada.",
+    "serverError": "Error en el servidor. Intente nuevamente más tarde.",
+    "doubleBooking": "Ya tiene una reserva en este horario.",
+    "slotTaken": "Este horario ya fue reservado.",
+    "machineOutOfService": "Esta máquina está fuera de servicio.",
+    "pendingApproval": "Su registro está esperando aprobación.",
+    "rejected": "Su registro fue rechazado. Contacte a la administración.",
+    "suspended": "Su cuenta está suspendida. Contacte a la administración.",
+    "masterAdminQuorum": "No es posible reducir el número de Admins Master debajo de 3."
+  },
+
+  "notifications": {
+    "bookingCreated": "¡Reserva realizada con éxito!",
+    "bookingConfirmed": "Su reserva fue confirmada.",
+    "bookingCancelled": "Reserva cancelada.",
+    "bookingAmended": "Su reserva fue modificada por el administrador.",
+    "registrationApproved": "¡Su registro fue aprobado! Bienvenido.",
+    "registrationRejected": "Su registro fue rechazado.",
+    "machineStatusUpdated": "Estado de la máquina actualizado.",
+    "userRoleUpdated": "Cargo del usuario actualizado.",
+    "settingsSaved": "Configuraciones guardadas con éxito."
+  },
+
+  "pdf": {
+    "title": "Agenda de Lavandería",
+    "date": "Fecha",
+    "schedule": "Horario",
+    "machine": "Máquina",
+    "nameRoom": "Nombre y Habitación",
+    "ose": "OSE Responsable",
+    "footer": "No debe programarse más de una máquina para el mismo residente en el mismo horario.",
+    "generated": "Generado en"
+  },
+
+  "notFound": {
+    "title": "Página No Encontrada",
+    "message": "La página que busca no existe.",
+    "backHome": "Volver al Inicio"
+  },
+
+  "waitlist": {
+    "join": "Unirse a la Lista de Espera",
+    "joined": "Está en la lista de espera para este horario.",
+    "notified": "Será notificado si el horario queda disponible."
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "common": {
+    "back": "بازگشت",
+    "save": "ذخیره",
+    "cancel": "لغو",
+    "confirm": "تأیید",
+    "delete": "حذف",
+    "edit": "ویرایش",
+    "close": "بستن",
+    "loading": "در حال بارگذاری...",
+    "error": "خطا",
+    "success": "موفقیت",
+    "yes": "بله",
+    "no": "خیر",
+    "search": "جستجو",
+    "filter": "فیلتر",
+    "export": "خروجی",
+    "print": "چاپ",
+    "refresh": "به‌روزرسانی",
+    "noData": "داده‌ای یافت نشد",
+    "required": "فیلد الزامی",
+    "optional": "اختیاری"
+  },
+
+  "language": {
+    "select": "زبان",
+    "pt": "Português",
+    "es": "Español",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية",
+    "fa": "فارسی"
+  },
+
+  "landing": {
+    "heroTitle": "مرکز اسکان ویژه خانواده ابنزر",
+    "subtitle": "سیستم برنامه‌ریزی لباسشویی",
+    "accessButton": "ورود با کد QR",
+    "firstAccess": "اولین بازدید؟ ثبت‌نام کنید",
+    "section": {
+      "title": "دسترسی آسان",
+      "description": "برای دسترسی به برنامه لباسشویی از کد QR شخصی خود استفاده کنید. ساکنان جدید، لطفاً در زیر ثبت‌نام کنید."
+    },
+    "features": {
+      "qr": { "title": "کد QR", "description": "دسترسی سریع با کد شخصی" },
+      "schedule": { "title": "برنامه‌ریزی", "description": "رزرو آسان ماشین لباسشویی و خشک‌کن" },
+      "secure": { "title": "ایمن", "description": "سیستم تأیید شده توسط مدیریت" }
+    },
+    "institution": {
+      "name": "مرکز اسکان ویژه خانواده ابنزر",
+      "address": "آو. پروفسور ادگار سانتوس، شماره ۷۸۰، ویلا نیوکونه، سائوپائولو – SP، کد پستی ۰۳۵۶۰-۰۸۰",
+      "org": "شهر سائوپائولو / دبیرخانه شهری کمک و توسعه اجتماعی"
+    },
+    "register": "ثبت‌نام",
+    "enter": "ورود"
+  },
+
+  "login": {
+    "title": "ورود به سیستم",
+    "subtitle": "برای ادامه اعتبارنامه خود را وارد کنید",
+    "residentTab": "ساکن",
+    "adminTab": "مدیر",
+    "roomNumber": "شماره اتاق",
+    "roomPlaceholder": "مثال: ۱۰۱",
+    "pin": "کد PIN (۴ رقم)",
+    "pinPlaceholder": "****",
+    "adminToken": "توکن دسترسی",
+    "adminTokenPlaceholder": "توکن مدیر خود را وارد کنید",
+    "enterButton": "ورود",
+    "entering": "در حال ورود...",
+    "firstAccess": "اولین بازدید؟",
+    "registerLink": "ثبت‌نام کنید",
+    "fillAllFields": "لطفاً همه فیلدها را پر کنید",
+    "insertToken": "توکن دسترسی را وارد کنید"
+  },
+
+  "register": {
+    "title": "ثبت‌نام ساکن",
+    "subtitle": "برای درخواست دسترسی به سیستم، اطلاعات خود را پر کنید",
+    "steps": {
+      "form": "اطلاعات شخصی",
+      "camera": "عکس",
+      "success": "تکمیل شد"
+    },
+    "name": "نام کامل",
+    "namePlaceholder": "نام کامل شما",
+    "roomNumber": "شماره اتاق",
+    "roomPlaceholder": "مثال: ۱۰۱",
+    "phone": "تلفن",
+    "phonePlaceholder": "(۱۱) ۹۹۹۹۹-۹۹۹۹",
+    "pin": "کد دسترسی (۴ رقم)",
+    "pinPlaceholder": "****",
+    "pinConfirm": "تأیید کد",
+    "pinMismatch": "کدها مطابقت ندارند",
+    "photo": "عکس",
+    "photoRequired": "عکس الزامی است",
+    "takePhoto": "گرفتن عکس",
+    "retakePhoto": "گرفتن مجدد",
+    "next": "بعدی",
+    "submit": "ارسال ثبت‌نام",
+    "submitting": "در حال ارسال...",
+    "success_title": "ثبت‌نام ارسال شد!",
+    "success_message": "ثبت‌نام شما با موفقیت ارسال شد. لطفاً قبل از استفاده از سیستم، منتظر تأیید مدیر باشید.",
+    "pending": "وضعیت: در انتظار تأیید",
+    "backHome": "بازگشت به صفحه اصلی",
+    "errors": {
+      "nameRequired": "نام الزامی است",
+      "roomRequired": "شماره اتاق الزامی است",
+      "pinRequired": "کد الزامی است",
+      "pinLength": "کد باید ۴ رقم باشد",
+      "photoRequired": "عکس الزامی است"
+    }
+  },
+
+  "dashboard": {
+    "tabs": {
+      "book": "رزرو",
+      "myBookings": "رزروهای من",
+      "profile": "پروفایل"
+    },
+    "book": {
+      "title": "رزرو ماشین",
+      "selectDate": "انتخاب تاریخ",
+      "selectType": "نوع دستگاه",
+      "washingMachine": "ماشین لباسشویی",
+      "dryer": "خشک‌کن",
+      "available": "در دسترس",
+      "occupied": "اشغال",
+      "outOfService": "خارج از سرویس",
+      "maintenance": "تعمیرات",
+      "myBooking": "رزرو من",
+      "noSlots": "هیچ بازه زمانی برای این تاریخ موجود نیست",
+      "confirmTitle": "تأیید رزرو",
+      "confirmMessage": "آیا می‌خواهید رزرو {{machine}} از {{start}} تا {{end}} در {{date}} را تأیید کنید؟",
+      "bookButton": "تأیید",
+      "pendingConfirmation": "در انتظار تأیید",
+      "ruleWarning": "امکان رزرو بیش از یک ماشین در یک زمان وجود ندارد"
+    },
+    "myBookings": {
+      "title": "رزروهای من",
+      "upcoming": "آینده",
+      "past": "تاریخچه",
+      "empty": "شما هیچ رزروی ندارید",
+      "cancelButton": "لغو",
+      "cancelConfirm": "آیا می‌خواهید این رزرو را لغو کنید؟",
+      "cancelWarning": "لغو باید حداقل ۱ ساعت قبل از زمان مقرر انجام شود",
+      "checkIn": "ثبت ورود",
+      "statuses": {
+        "PENDING_CONFIRMATION": "در انتظار تأیید",
+        "CONFIRMED": "تأیید شده",
+        "CANCELLED_BY_RESIDENT": "لغو شده توسط شما",
+        "CANCELLED_BY_ADMIN": "لغو شده توسط مدیر",
+        "COMPLETED": "تکمیل شده",
+        "NO_SHOW": "حضور نیافتن"
+      }
+    },
+    "profile": {
+      "title": "پروفایل من",
+      "room": "اتاق",
+      "phone": "تلفن",
+      "status": "وضعیت",
+      "memberSince": "ساکن از",
+      "totalBookings": "کل رزروها",
+      "noShows": "عدم حضور",
+      "logout": "خروج از سیستم"
+    },
+    "header": {
+      "greeting": "سلام، {{name}}",
+      "adminPanel": "پنل مدیریت",
+      "logout": "خروج"
+    }
+  },
+
+  "admin": {
+    "header": {
+      "title": "پنل مدیریتی",
+      "subtitle": "مرکز ابنزر — مدیریت لباسشویی"
+    },
+    "tabs": {
+      "dashboard": "داشبورد",
+      "schedule": "برنامه",
+      "approvals": "تأییدیه‌ها",
+      "machines": "ماشین‌ها",
+      "users": "ساکنان",
+      "analytics": "تحلیل‌ها",
+      "audit": "حسابرسی",
+      "settings": "تنظیمات"
+    },
+    "dashboard_tab": {
+      "todayBookings": "رزروهای امروز",
+      "pendingApprovals": "تأییدیه‌های در انتظار",
+      "machinesOutOfService": "ماشین‌های خارج از سرویس",
+      "noShowsWeek": "عدم حضور (۷ روز)",
+      "totalResidents": "کل ساکنان",
+      "confirmedToday": "تأیید شده امروز"
+    },
+    "schedule": {
+      "title": "برنامه امروز",
+      "selectDate": "انتخاب تاریخ",
+      "printPDF": "چاپ / PDF",
+      "allMachines": "همه ماشین‌ها",
+      "confirm": "تأیید",
+      "cancel": "لغو",
+      "amend": "تغییر",
+      "noBookings": "هیچ رزروی برای این تاریخ وجود ندارد"
+    },
+    "approvals": {
+      "title": "تأییدیه‌های در انتظار",
+      "empty": "هیچ ثبت‌نامی در انتظار تأیید نیست",
+      "approve": "تأیید",
+      "reject": "رد",
+      "rejectReason": "دلیل رد",
+      "rejectReasonPlaceholder": "دلیل را وارد کنید...",
+      "approvedBy": "تأیید شده توسط",
+      "registeredAt": "ثبت شده در"
+    },
+    "machines": {
+      "title": "مدیریت ماشین‌ها",
+      "add": "افزودن ماشین",
+      "addTitle": "ماشین جدید",
+      "name": "نام ماشین",
+      "namePlaceholder": "مثال: ماشین ۰۴",
+      "type": "نوع",
+      "washingMachine": "ماشین لباسشویی",
+      "dryer": "خشک‌کن",
+      "status": "وضعیت",
+      "active": "فعال",
+      "outOfService": "خارج از سرویس",
+      "maintenance": "تعمیرات",
+      "statusNote": "یادداشت وضعیت",
+      "statusNotePlaceholder": "مثال: در انتظار قطعه یدکی",
+      "remove": "حذف ماشین",
+      "removeConfirm": "حذف {{name}} تأیید شود؟ این عمل قابل بازگشت نیست.",
+      "saveStatus": "ذخیره وضعیت"
+    },
+    "users": {
+      "title": "مدیریت ساکنان",
+      "search": "جستجوی ساکن...",
+      "filterRole": "فیلتر بر اساس نقش",
+      "filterStatus": "فیلتر بر اساس وضعیت",
+      "name": "نام",
+      "room": "اتاق",
+      "role": "نقش",
+      "status": "وضعیت",
+      "bookings": "رزروها",
+      "registeredAt": "ثبت شده در",
+      "actions": "عملیات",
+      "changeRole": "تغییر نقش",
+      "suspend": "تعلیق",
+      "unsuspend": "فعال‌سازی مجدد",
+      "delete": "حذف",
+      "deleteConfirm": "حذف {{name}} تأیید شود؟ این عمل غیرقابل بازگشت است.",
+      "roles": {
+        "MASTER_ADMIN": "مدیر ارشد",
+        "OPERATIONAL_ADMIN": "مدیر عملیاتی",
+        "VIEWER": "ناظر",
+        "RESIDENT": "ساکن"
+      },
+      "statuses": {
+        "PENDING": "در انتظار",
+        "APPROVED": "تأیید شده",
+        "REJECTED": "رد شده",
+        "SUSPENDED": "معلق"
+      }
+    },
+    "amendment": {
+      "title": "تغییر رزرو",
+      "reason": "دلیل تغییر",
+      "reasonPlaceholder": "دلیل تغییر را توضیح دهید (الزامی)...",
+      "newSlot": "زمان جدید",
+      "submit": "تأیید تغییر",
+      "reasonRequired": "دلیل تغییر الزامی است"
+    },
+    "analytics": {
+      "title": "تحلیل‌ها و گزارش‌ها",
+      "period": {
+        "7days": "۷ روز گذشته",
+        "30days": "۳۰ روز گذشته",
+        "90days": "۹۰ روز گذشته",
+        "custom": "سفارشی"
+      },
+      "charts": {
+        "utilization": "استفاده بر اساس ماشین",
+        "bookingTrend": "روند رزروها",
+        "heatmap": "محبوب‌ترین زمان‌ها",
+        "noShowRate": "نرخ عدم حضور",
+        "topResidents": "فعال‌ترین ساکنان"
+      },
+      "exportCSV": "خروجی CSV",
+      "exportPDF": "خروجی PDF"
+    },
+    "audit": {
+      "title": "سابقه حسابرسی",
+      "user": "کاربر",
+      "action": "عملیات",
+      "target": "هدف",
+      "date": "تاریخ/زمان",
+      "noLogs": "هیچ سابقه‌ای یافت نشد"
+    },
+    "settings": {
+      "title": "تنظیمات سیستم",
+      "maxBookingsPerDay": "حداکثر رزرو در روز (هر ساکن)",
+      "bookingWindowDays": "پنجره رزرو (روزهای آینده)",
+      "cancellationWindowHours": "مهلت لغو (ساعت قبل از زمان)",
+      "language": "ز پیش‌فرض سامانه",
+      "google": {
+        "title": "یکپارچه‌سازی Google",
+        "sheets": "Google Sheets",
+        "calendar": "Google Calendar",
+        "syncNow": "همگام‌سازی اکنون",
+        "lastSync": "آخرین همگام‌سازی"
+      },
+      "notifications": {
+        "title": "اعلان‌ها",
+        "email": "ایمیل",
+        "whatsapp": "واتساپ"
+      },
+      "save": "ذخیره تنظیمات"
+    }
+  },
+
+  "machines": {
+    "WASHING_MACHINE": "ماشین لباسشویی",
+    "DRYER": "خشک‌کن",
+    "statuses": {
+      "ACTIVE": "فعال",
+      "OUT_OF_SERVICE": "خارج از سرویس",
+      "MAINTENANCE": "تعمیرات"
+    }
+  },
+
+  "errors": {
+    "generic": "خطایی رخ داد. لطفاً دوباره تلاش کنید.",
+    "unauthorized": "شما اجازه انجام این عمل را ندارید.",
+    "notFound": "صفحه یافت نشد.",
+    "serverError": "خطای سرور. لطفاً بعداً دوباره تلاش کنید.",
+    "doubleBooking": "شما قبلاً در این زمان رزرو دارید.",
+    "slotTaken": "این بازه زمانی قبلاً رزرو شده است.",
+    "machineOutOfService": "این ماشین خارج از سرویس است.",
+    "pendingApproval": "ثبت‌نام شما در انتظار تأیید است.",
+    "rejected": "ثبت‌نام شما رد شده است. لطفاً با مدیریت تماس بگیرید.",
+    "suspended": "حساب شما معلق است. لطفاً با مدیریت تماس بگیرید.",
+    "masterAdminQuorum": "امکان کاهش تعداد مدیران ارشد به کمتر از ۳ نفر وجود ندارد."
+  },
+
+  "notifications": {
+    "bookingCreated": "رزرو با موفقیت انجام شد!",
+    "bookingConfirmed": "رزرو شما تأیید شد.",
+    "bookingCancelled": "رزرو لغو شد.",
+    "bookingAmended": "رزرو شما توسط مدیر تغییر کرد.",
+    "registrationApproved": "ثبت‌نام شما تأیید شد! خوش آمدید.",
+    "registrationRejected": "ثبت‌نام شما رد شد.",
+    "machineStatusUpdated": "وضعیت ماشین به‌روز شد.",
+    "userRoleUpdated": "نقش کاربر به‌روز شد.",
+    "settingsSaved": "تنظیمات با موفقیت ذخیره شد."
+  },
+
+  "pdf": {
+    "title": "برنامه لباسشویی",
+    "date": "تاریخ",
+    "schedule": "زمان",
+    "machine": "ماشین",
+    "nameRoom": "نام و اتاق",
+    "ose": "OSE مسئول",
+    "footer": "نباید بیش از یک ماشین برای یک ساکن در یک زمان رزرو شود.",
+    "generated": "تولید شده در"
+  },
+
+  "notFound": {
+    "title": "صفحه یافت نشد",
+    "message": "صفحه‌ای که به دنبال آن هستید وجود ندارد.",
+    "backHome": "بازگشت به صفحه اصلی"
+  },
+
+  "waitlist": {
+    "join": "پیوستن به لیست انتظار",
+    "joined": "شما در لیست انتظار این زمان هستید.",
+    "notified": "در صورت خالی شدن زمان، به شما اطلاع داده می‌شود."
+  }
+}

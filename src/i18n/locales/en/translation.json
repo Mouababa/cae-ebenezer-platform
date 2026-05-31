@@ -1,0 +1,380 @@
+{
+  "common": {
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "yes": "Yes",
+    "no": "No",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "print": "Print",
+    "refresh": "Refresh",
+    "noData": "No data found",
+    "required": "Required field",
+    "optional": "Optional"
+  },
+
+  "language": {
+    "select": "Language",
+    "pt": "Português",
+    "es": "Español",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية",
+    "fa": "فارسی"
+  },
+
+  "landing": {
+    "heroTitle": "Ebenezer Family Special Shelter Center",
+    "subtitle": "Laundry Scheduling System",
+    "accessButton": "Access with QR Code",
+    "firstAccess": "First time? Register",
+    "section": {
+      "title": "Simplified Access",
+      "description": "Use your personal QR Code to access the laundry schedule. New residents, please register below."
+    },
+    "features": {
+      "qr": { "title": "QR Code", "description": "Quickly access with your personal code" },
+      "schedule": { "title": "Scheduling", "description": "Reserve washing machines and dryers with ease" },
+      "secure": { "title": "Secure", "description": "System approved by administration" }
+    },
+    "institution": {
+      "name": "Ebenezer Special Family Shelter Center",
+      "address": "Av. Professor Edgar Santos, No. 780, Vila Nhocune, São Paulo – SP, ZIP 03560-080",
+      "org": "City of São Paulo / Municipal Secretariat of Social Assistance and Development"
+    },
+    "register": "Register",
+    "enter": "Login"
+  },
+
+  "login": {
+    "title": "System Access",
+    "subtitle": "Enter your credentials to continue",
+    "residentTab": "Resident",
+    "adminTab": "Admin",
+    "roomNumber": "Room Number",
+    "roomPlaceholder": "Ex: 101",
+    "pin": "PIN (4 digits)",
+    "pinPlaceholder": "****",
+    "adminToken": "Access Token",
+    "adminTokenPlaceholder": "Enter your administrator token",
+    "enterButton": "Login",
+    "entering": "Logging in...",
+    "firstAccess": "First time?",
+    "registerLink": "Register",
+    "fillAllFields": "Please fill in all fields",
+    "insertToken": "Please enter the access token"
+  },
+
+  "register": {
+    "title": "Resident Registration",
+    "subtitle": "Fill in your details to request system access",
+    "steps": {
+      "form": "Personal Details",
+      "camera": "Photo",
+      "success": "Complete"
+    },
+    "name": "Full Name",
+    "namePlaceholder": "Your full name",
+    "roomNumber": "Room Number",
+    "roomPlaceholder": "Ex: 101",
+    "phone": "Phone",
+    "phonePlaceholder": "(11) 99999-9999",
+    "pin": "Access PIN (4 digits)",
+    "pinPlaceholder": "****",
+    "pinConfirm": "Confirm PIN",
+    "pinMismatch": "PINs do not match",
+    "photo": "Photo",
+    "photoRequired": "Photo required",
+    "takePhoto": "Take Photo",
+    "retakePhoto": "Retake Photo",
+    "next": "Next",
+    "submit": "Submit Registration",
+    "submitting": "Submitting...",
+    "success_title": "Registration Submitted!",
+    "success_message": "Your registration has been submitted successfully. Please wait for administrator approval before using the system.",
+    "pending": "Status: Awaiting Approval",
+    "backHome": "Back to Home",
+    "errors": {
+      "nameRequired": "Name is required",
+      "roomRequired": "Room number is required",
+      "pinRequired": "PIN is required",
+      "pinLength": "PIN must be 4 digits",
+      "photoRequired": "Photo is required"
+    }
+  },
+
+  "dashboard": {
+    "tabs": {
+      "book": "Book",
+      "myBookings": "My Bookings",
+      "profile": "Profile"
+    },
+    "book": {
+      "title": "Book a Machine",
+      "selectDate": "Select Date",
+      "selectType": "Equipment Type",
+      "washingMachine": "Washing Machine",
+      "dryer": "Dryer",
+      "available": "Available",
+      "occupied": "Occupied",
+      "outOfService": "Out of Service",
+      "maintenance": "Maintenance",
+      "myBooking": "My Booking",
+      "noSlots": "No time slots available for this date",
+      "confirmTitle": "Confirm Booking",
+      "confirmMessage": "Do you want to confirm the booking for {{machine}} from {{start}} to {{end}} on {{date}}?",
+      "bookButton": "Confirm",
+      "pendingConfirmation": "Awaiting Confirmation",
+      "ruleWarning": "You cannot book more than one machine at the same time"
+    },
+    "myBookings": {
+      "title": "My Bookings",
+      "upcoming": "Upcoming",
+      "past": "History",
+      "empty": "You have no bookings",
+      "cancelButton": "Cancel",
+      "cancelConfirm": "Do you want to cancel this booking?",
+      "cancelWarning": "Cancellations must be made at least 1 hour before the time slot",
+      "checkIn": "Check In",
+      "statuses": {
+        "PENDING_CONFIRMATION": "Awaiting Confirmation",
+        "CONFIRMED": "Confirmed",
+        "CANCELLED_BY_RESIDENT": "Cancelled by you",
+        "CANCELLED_BY_ADMIN": "Cancelled by Admin",
+        "COMPLETED": "Completed",
+        "NO_SHOW": "No Show"
+      }
+    },
+    "profile": {
+      "title": "My Profile",
+      "room": "Room",
+      "phone": "Phone",
+      "status": "Status",
+      "memberSince": "Resident since",
+      "totalBookings": "Total Bookings",
+      "noShows": "No Shows",
+      "logout": "Logout"
+    },
+    "header": {
+      "greeting": "Hello, {{name}}",
+      "adminPanel": "Admin Panel",
+      "logout": "Logout"
+    }
+  },
+
+  "admin": {
+    "header": {
+      "title": "Administrative Panel",
+      "subtitle": "CAE Ebenezer — Laundry Management"
+    },
+    "tabs": {
+      "dashboard": "Dashboard",
+      "schedule": "Schedule",
+      "approvals": "Approvals",
+      "machines": "Machines",
+      "users": "Residents",
+      "analytics": "Analytics",
+      "audit": "Audit",
+      "settings": "Settings"
+    },
+    "dashboard_tab": {
+      "todayBookings": "Today's Bookings",
+      "pendingApprovals": "Pending Approvals",
+      "machinesOutOfService": "Machines Out of Service",
+      "noShowsWeek": "No Shows (7 days)",
+      "totalResidents": "Total Residents",
+      "confirmedToday": "Confirmed Today"
+    },
+    "schedule": {
+      "title": "Today's Schedule",
+      "selectDate": "Select Date",
+      "printPDF": "Print / PDF",
+      "allMachines": "All Machines",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "amend": "Amend",
+      "noBookings": "No bookings for this date"
+    },
+    "approvals": {
+      "title": "Pending Approvals",
+      "empty": "No registrations awaiting approval",
+      "approve": "Approve",
+      "reject": "Reject",
+      "rejectReason": "Reason for Rejection",
+      "rejectReasonPlaceholder": "Enter the reason...",
+      "approvedBy": "Approved by",
+      "registeredAt": "Registered at"
+    },
+    "machines": {
+      "title": "Machine Management",
+      "add": "Add Machine",
+      "addTitle": "New Machine",
+      "name": "Machine Name",
+      "namePlaceholder": "Ex: MACHINE 04",
+      "type": "Type",
+      "washingMachine": "Washing Machine",
+      "dryer": "Dryer",
+      "status": "Status",
+      "active": "Active",
+      "outOfService": "Out of Service",
+      "maintenance": "Maintenance",
+      "statusNote": "Status Note",
+      "statusNotePlaceholder": "Ex: Waiting for replacement part",
+      "remove": "Remove Machine",
+      "removeConfirm": "Confirm removal of {{name}}? This action cannot be undone.",
+      "saveStatus": "Save Status"
+    },
+    "users": {
+      "title": "Resident Management",
+      "search": "Search resident...",
+      "filterRole": "Filter by Role",
+      "filterStatus": "Filter by Status",
+      "name": "Name",
+      "room": "Room",
+      "role": "Role",
+      "status": "Status",
+      "bookings": "Bookings",
+      "registeredAt": "Registered at",
+      "actions": "Actions",
+      "changeRole": "Change Role",
+      "suspend": "Suspend",
+      "unsuspend": "Reactivate",
+      "delete": "Delete",
+      "deleteConfirm": "Confirm deletion of {{name}}? This action is irreversible.",
+      "roles": {
+        "MASTER_ADMIN": "Master Admin",
+        "OPERATIONAL_ADMIN": "Operational Admin (OSE)",
+        "VIEWER": "Viewer",
+        "RESIDENT": "Resident"
+      },
+      "statuses": {
+        "PENDING": "Pending",
+        "APPROVED": "Approved",
+        "REJECTED": "Rejected",
+        "SUSPENDED": "Suspended"
+      }
+    },
+    "amendment": {
+      "title": "Amend Booking",
+      "reason": "Reason for Amendment",
+      "reasonPlaceholder": "Describe the reason for the amendment (required)...",
+      "newSlot": "New Time Slot",
+      "submit": "Confirm Amendment",
+      "reasonRequired": "The amendment reason is required"
+    },
+    "analytics": {
+      "title": "Analytics and Reports",
+      "period": {
+        "7days": "Last 7 days",
+        "30days": "Last 30 days",
+        "90days": "Last 90 days",
+        "custom": "Custom"
+      },
+      "charts": {
+        "utilization": "Utilization by Machine",
+        "bookingTrend": "Booking Trend",
+        "heatmap": "Most Popular Times",
+        "noShowRate": "No Show Rate",
+        "topResidents": "Most Active Residents"
+      },
+      "exportCSV": "Export CSV",
+      "exportPDF": "Export PDF"
+    },
+    "audit": {
+      "title": "Audit Log",
+      "user": "User",
+      "action": "Action",
+      "target": "Target",
+      "date": "Date/Time",
+      "noLogs": "No records found"
+    },
+    "settings": {
+      "title": "System Settings",
+      "maxBookingsPerDay": "Max Bookings per Day (per resident)",
+      "bookingWindowDays": "Booking Window (days ahead)",
+      "cancellationWindowHours": "Cancellation Window (hours before time)",
+      "language": "Default Platform Language",
+      "google": {
+        "title": "Google Integration",
+        "sheets": "Google Sheets",
+        "calendar": "Google Calendar",
+        "syncNow": "Sync Now",
+        "lastSync": "Last synchronization"
+      },
+      "notifications": {
+        "title": "Notifications",
+        "email": "Email",
+        "whatsapp": "WhatsApp"
+      },
+      "save": "Save Settings"
+    }
+  },
+
+  "machines": {
+    "WASHING_MACHINE": "Washing Machine",
+    "DRYER": "Dryer",
+    "statuses": {
+      "ACTIVE": "Active",
+      "OUT_OF_SERVICE": "Out of Service",
+      "MAINTENANCE": "Maintenance"
+    }
+  },
+
+  "errors": {
+    "generic": "An error occurred. Please try again.",
+    "unauthorized": "You do not have permission to perform this action.",
+    "notFound": "Page not found.",
+    "serverError": "Server error. Please try again later.",
+    "doubleBooking": "You already have a booking at this time.",
+    "slotTaken": "This time slot has already been reserved.",
+    "machineOutOfService": "This machine is out of service.",
+    "pendingApproval": "Your registration is awaiting approval.",
+    "rejected": "Your registration was rejected. Please contact administration.",
+    "suspended": "Your account is suspended. Please contact administration.",
+    "masterAdminQuorum": "Cannot reduce Master Admin count below 3."
+  },
+
+  "notifications": {
+    "bookingCreated": "Booking created successfully!",
+    "bookingConfirmed": "Your booking has been confirmed.",
+    "bookingCancelled": "Booking cancelled.",
+    "bookingAmended": "Your booking has been amended by the administrator.",
+    "registrationApproved": "Your registration has been approved! Welcome.",
+    "registrationRejected": "Your registration was rejected.",
+    "machineStatusUpdated": "Machine status updated.",
+    "userRoleUpdated": "User role updated.",
+    "settingsSaved": "Settings saved successfully."
+  },
+
+  "pdf": {
+    "title": "Laundry Schedule",
+    "date": "Date",
+    "schedule": "Time",
+    "machine": "Machine",
+    "nameRoom": "Name and Room",
+    "ose": "Responsible OSE",
+    "footer": "No more than one machine should be scheduled for the same resident at the same time.",
+    "generated": "Generated on"
+  },
+
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "The page you are looking for does not exist.",
+    "backHome": "Back to Home"
+  },
+
+  "waitlist": {
+    "join": "Join Waitlist",
+    "joined": "You are on the waitlist for this time slot.",
+    "notified": "You will be notified if the slot becomes available."
+  }
+}

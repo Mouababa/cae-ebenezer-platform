@@ -1,0 +1,380 @@
+{
+  "common": {
+    "back": "Retour",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "yes": "Oui",
+    "no": "Non",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "export": "Exporter",
+    "print": "Imprimer",
+    "refresh": "Actualiser",
+    "noData": "Aucune donnée trouvée",
+    "required": "Champ obligatoire",
+    "optional": "Optionnel"
+  },
+
+  "language": {
+    "select": "Langue",
+    "pt": "Português",
+    "es": "Español",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية",
+    "fa": "فارسی"
+  },
+
+  "landing": {
+    "heroTitle": "Centre d'Accueil Spécial Familles Ebenezer",
+    "subtitle": "Système de Réservation de Buanderie",
+    "accessButton": "Accéder avec QR Code",
+    "firstAccess": "Premier accès ? Inscrivez-vous",
+    "section": {
+      "title": "Accès Simplifié",
+      "description": "Utilisez votre QR Code personnel pour accéder au planning de la buanderie. Pour les nouveaux résidents, veuillez vous inscrire ci-dessous."
+    },
+    "features": {
+      "qr": { "title": "QR Code", "description": "Accédez rapidement avec votre code personnel" },
+      "schedule": { "title": "Planification", "description": "Réservez machines et sèche-linges facilement" },
+      "secure": { "title": "Sécurisé", "description": "Système approuvé par l'administration" }
+    },
+    "institution": {
+      "name": "Centre d'Accueil Spécial pour Familles Ebenezer",
+      "address": "Av. Professor Edgar Santos, nº 780, Vila Nhocune, São Paulo – SP, CEP 03560-080",
+      "org": "Ville de São Paulo / Secrétariat Municipal d'Assistance et de Développement Social"
+    },
+    "register": "S'inscrire",
+    "enter": "Entrer"
+  },
+
+  "login": {
+    "title": "Accès au Système",
+    "subtitle": "Entrez vos identifiants pour continuer",
+    "residentTab": "Résident(e)",
+    "adminTab": "Admin",
+    "roomNumber": "Numéro de Chambre",
+    "roomPlaceholder": "Ex: 101",
+    "pin": "PIN (4 chiffres)",
+    "pinPlaceholder": "****",
+    "adminToken": "Jeton d'Accès",
+    "adminTokenPlaceholder": "Entrez votre jeton d'administrateur",
+    "enterButton": "Entrer",
+    "entering": "Connexion en cours...",
+    "firstAccess": "Premier accès ?",
+    "registerLink": "Inscrivez-vous",
+    "fillAllFields": "Veuillez remplir tous les champs",
+    "insertToken": "Veuillez entrer le jeton d'accès"
+  },
+
+  "register": {
+    "title": "Inscription de Résident(e)",
+    "subtitle": "Remplissez vos coordonnées pour demander l'accès au système",
+    "steps": {
+      "form": "Données Personnelles",
+      "camera": "Photo",
+      "success": "Terminé"
+    },
+    "name": "Nom Complet",
+    "namePlaceholder": "Votre nom complet",
+    "roomNumber": "Numéro de Chambre",
+    "roomPlaceholder": "Ex: 101",
+    "phone": "Téléphone",
+    "phonePlaceholder": "(11) 99999-9999",
+    "pin": "PIN d'Accès (4 chiffres)",
+    "pinPlaceholder": "****",
+    "pinConfirm": "Confirmer le PIN",
+    "pinMismatch": "Les PINs ne correspondent pas",
+    "photo": "Photo",
+    "photoRequired": "Photo obligatoire",
+    "takePhoto": "Prendre une Photo",
+    "retakePhoto": "Reprendre la Photo",
+    "next": "Suivant",
+    "submit": "Envoyer l'Inscription",
+    "submitting": "Envoi en cours...",
+    "success_title": "Inscription Envoyée !",
+    "success_message": "Votre inscription a été envoyée avec succès. Veuillez attendre l'approbation de l'administrateur avant d'utiliser le système.",
+    "pending": "Statut: En Attente d'Approbation",
+    "backHome": "Retour à l'Accueil",
+    "errors": {
+      "nameRequired": "Le nom est obligatoire",
+      "roomRequired": "Le numéro de chambre est obligatoire",
+      "pinRequired": "Le PIN est obligatoire",
+      "pinLength": "Le PIN doit comporter 4 chiffres",
+      "photoRequired": "La photo est obligatoire"
+    }
+  },
+
+  "dashboard": {
+    "tabs": {
+      "book": "Réserver",
+      "myBookings": "Mes Réservations",
+      "profile": "Profil"
+    },
+    "book": {
+      "title": "Réserver une Machine",
+      "selectDate": "Sélectionner la Date",
+      "selectType": "Type d'Équipement",
+      "washingMachine": "Machine à Laver",
+      "dryer": "Sèche-Linge",
+      "available": "Disponible",
+      "occupied": "Occupé",
+      "outOfService": "Hors Service",
+      "maintenance": "Maintenance",
+      "myBooking": "Ma Réservation",
+      "noSlots": "Aucun créneau disponible pour cette date",
+      "confirmTitle": "Confirmer la Réservation",
+      "confirmMessage": "Voulez-vous confirmer la réservation pour {{machine}} de {{start}} à {{end}} le {{date}} ?",
+      "bookButton": "Confirmer",
+      "pendingConfirmation": "En Attente de Confirmation",
+      "ruleWarning": "Il n'est pas possible de réserver plus d'une machine au même horaire"
+    },
+    "myBookings": {
+      "title": "Mes Réservations",
+      "upcoming": "À Venir",
+      "past": "Historique",
+      "empty": "Vous n'avez aucune réservation",
+      "cancelButton": "Annuler",
+      "cancelConfirm": "Voulez-vous annuler cette réservation ?",
+      "cancelWarning": "Les annulations doivent être faites au moins 1 heure avant l'horaire",
+      "checkIn": "Enregistrer l'Arrivée",
+      "statuses": {
+        "PENDING_CONFIRMATION": "En Attente de Confirmation",
+        "CONFIRMED": "Confirmé",
+        "CANCELLED_BY_RESIDENT": "Annulé par vous",
+        "CANCELLED_BY_ADMIN": "Annulé par l'Admin",
+        "COMPLETED": "Terminé",
+        "NO_SHOW": "Non Présenté(e)"
+      }
+    },
+    "profile": {
+      "title": "Mon Profil",
+      "room": "Chambre",
+      "phone": "Téléphone",
+      "status": "Statut",
+      "memberSince": "Résident(e) depuis",
+      "totalBookings": "Total de Réservations",
+      "noShows": "Absences",
+      "logout": "Quitter le Système"
+    },
+    "header": {
+      "greeting": "Bonjour, {{name}}",
+      "adminPanel": "Panneau Admin",
+      "logout": "Quitter"
+    }
+  },
+
+  "admin": {
+    "header": {
+      "title": "Panneau Administratif",
+      "subtitle": "CAE Ebenezer — Gestion de la Buanderie"
+    },
+    "tabs": {
+      "dashboard": "Dashboard",
+      "schedule": "Planning",
+      "approvals": "Approbations",
+      "machines": "Machines",
+      "users": "Résidents",
+      "analytics": "Analyses",
+      "audit": "Audit",
+      "settings": "Paramètres"
+    },
+    "dashboard_tab": {
+      "todayBookings": "Réservations Aujourd'hui",
+      "pendingApprovals": "Approbations en Attente",
+      "machinesOutOfService": "Machines Hors Service",
+      "noShowsWeek": "Absences (7 jours)",
+      "totalResidents": "Total de Résidents",
+      "confirmedToday": "Confirmés Aujourd'hui"
+    },
+    "schedule": {
+      "title": "Planning du Jour",
+      "selectDate": "Sélectionner la Date",
+      "printPDF": "Imprimer / PDF",
+      "allMachines": "Toutes les Machines",
+      "confirm": "Confirmer",
+      "cancel": "Annuler",
+      "amend": "Modifier",
+      "noBookings": "Aucune réservation pour cette date"
+    },
+    "approvals": {
+      "title": "Approbations en Attente",
+      "empty": "Aucune inscription en attente d'approbation",
+      "approve": "Approuver",
+      "reject": "Rejeter",
+      "rejectReason": "Motif du Rejet",
+      "rejectReasonPlaceholder": "Indiquez le motif...",
+      "approvedBy": "Approuvé par",
+      "registeredAt": "Inscrit le"
+    },
+    "machines": {
+      "title": "Gestion des Machines",
+      "add": "Ajouter une Machine",
+      "addTitle": "Nouvelle Machine",
+      "name": "Nom de la Machine",
+      "namePlaceholder": "Ex: MACHINE 04",
+      "type": "Type",
+      "washingMachine": "Machine à Laver",
+      "dryer": "Sèche-Linge",
+      "status": "Statut",
+      "active": "Active",
+      "outOfService": "Hors Service",
+      "maintenance": "Maintenance",
+      "statusNote": "Note sur le Statut",
+      "statusNotePlaceholder": "Ex: En attente de pièce de rechange",
+      "remove": "Supprimer la Machine",
+      "removeConfirm": "Confirmez la suppression de {{name}} ? Cette action ne peut pas être annulée.",
+      "saveStatus": "Enregistrer le Statut"
+    },
+    "users": {
+      "title": "Gestion des Résidents",
+      "search": "Rechercher un résident...",
+      "filterRole": "Filtrer par Rôle",
+      "filterStatus": "Filtrer par Statut",
+      "name": "Nom",
+      "room": "Chambre",
+      "role": "Rôle",
+      "status": "Statut",
+      "bookings": "Réservations",
+      "registeredAt": "Inscrit le",
+      "actions": "Actions",
+      "changeRole": "Changer le Rôle",
+      "suspend": "Suspendre",
+      "unsuspend": "Réactiver",
+      "delete": "Supprimer",
+      "deleteConfirm": "Confirmez la suppression de {{name}} ? Cette action est irréversible.",
+      "roles": {
+        "MASTER_ADMIN": "Admin Master",
+        "OPERATIONAL_ADMIN": "Admin Opérationnel (OSE)",
+        "VIEWER": "Visualiseur",
+        "RESIDENT": "Résident(e)"
+      },
+      "statuses": {
+        "PENDING": "En Attente",
+        "APPROVED": "Approuvé(e)",
+        "REJECTED": "Rejeté(e)",
+        "SUSPENDED": "Suspendu(e)"
+      }
+    },
+    "amendment": {
+      "title": "Modifier la Réservation",
+      "reason": "Motif de la Modification",
+      "reasonPlaceholder": "Décrivez le motif de la modification (obligatoire)...",
+      "newSlot": "Nouvel Horaire",
+      "submit": "Confirmer la Modification",
+      "reasonRequired": "Le motif de la modification est obligatoire"
+    },
+    "analytics": {
+      "title": "Analyses et Rapports",
+      "period": {
+        "7days": "7 derniers jours",
+        "30days": "30 derniers jours",
+        "90days": "90 derniers jours",
+        "custom": "Personnalisé"
+      },
+      "charts": {
+        "utilization": "Utilisation par Machine",
+        "bookingTrend": "Tendance des Réservations",
+        "heatmap": "Horaires les Plus Populaires",
+        "noShowRate": "Taux d'Absence",
+        "topResidents": "Résidents les Plus Actifs"
+      },
+      "exportCSV": "Exporter CSV",
+      "exportPDF": "Exporter PDF"
+    },
+    "audit": {
+      "title": "Journal d'Audit",
+      "user": "Utilisateur",
+      "action": "Action",
+      "target": "Cible",
+      "date": "Date/Heure",
+      "noLogs": "Aucun enregistrement trouvé"
+    },
+    "settings": {
+      "title": "Paramètres du Système",
+      "maxBookingsPerDay": "Réservations Max par Jour (par résident)",
+      "bookingWindowDays": "Fenêtre de Réservation (jours à l'avance)",
+      "cancellationWindowHours": "Délai d'Annulation (heures avant l'horaire)",
+      "language": "Langue par Défaut de la Plateforme",
+      "google": {
+        "title": "Intégration Google",
+        "sheets": "Google Sheets",
+        "calendar": "Google Agenda",
+        "syncNow": "Synchroniser Maintenant",
+        "lastSync": "Dernière synchronisation"
+      },
+      "notifications": {
+        "title": "Notifications",
+        "email": "E-mail",
+        "whatsapp": "WhatsApp"
+      },
+      "save": "Enregistrer les Paramètres"
+    }
+  },
+
+  "machines": {
+    "WASHING_MACHINE": "Machine à Laver",
+    "DRYER": "Sèche-Linge",
+    "statuses": {
+      "ACTIVE": "Active",
+      "OUT_OF_SERVICE": "Hors Service",
+      "MAINTENANCE": "Maintenance"
+    }
+  },
+
+  "errors": {
+    "generic": "Une erreur s'est produite. Veuillez réessayer.",
+    "unauthorized": "Vous n'avez pas la permission d'effectuer cette action.",
+    "notFound": "Page non trouvée.",
+    "serverError": "Erreur du serveur. Veuillez réessayer plus tard.",
+    "doubleBooking": "Vous avez déjà une réservation à cet horaire.",
+    "slotTaken": "Ce créneau a déjà été réservé.",
+    "machineOutOfService": "Cette machine est hors service.",
+    "pendingApproval": "Votre inscription est en attente d'approbation.",
+    "rejected": "Votre inscription a été rejetée. Veuillez contacter l'administration.",
+    "suspended": "Votre compte est suspendu. Veuillez contacter l'administration.",
+    "masterAdminQuorum": "Impossible de réduire le nombre d'Admins Master en dessous de 3."
+  },
+
+  "notifications": {
+    "bookingCreated": "Réservation effectuée avec succès !",
+    "bookingConfirmed": "Votre réservation a été confirmée.",
+    "bookingCancelled": "Réservation annulée.",
+    "bookingAmended": "Votre réservation a été modifiée par l'administrateur.",
+    "registrationApproved": "Votre inscription a été approuvée ! Bienvenue.",
+    "registrationRejected": "Votre inscription a été rejetée.",
+    "machineStatusUpdated": "Statut de la machine mis à jour.",
+    "userRoleUpdated": "Rôle de l'utilisateur mis à jour.",
+    "settingsSaved": "Paramètres enregistrés avec succès."
+  },
+
+  "pdf": {
+    "title": "Planning de Buanderie",
+    "date": "Date",
+    "schedule": "Horaire",
+    "machine": "Machine",
+    "nameRoom": "Nom et Chambre",
+    "ose": "OSE Responsable",
+    "footer": "Il ne faut pas réserver plus d'une machine pour le même résident au même horaire.",
+    "generated": "Généré le"
+  },
+
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "message": "La page que vous recherchez n'existe pas.",
+    "backHome": "Retour à l'Accueil"
+  },
+
+  "waitlist": {
+    "join": "Rejoindre la Liste d'Attente",
+    "joined": "Vous êtes sur la liste d'attente pour cet horaire.",
+    "notified": "Vous serez notifié si le créneau devient disponible."
+  }
+}

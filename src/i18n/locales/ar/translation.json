@@ -1,0 +1,380 @@
+{
+  "common": {
+    "back": "رجوع",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجاح",
+    "yes": "نعم",
+    "no": "لا",
+    "search": "بحث",
+    "filter": "تصفية",
+    "export": "تصدير",
+    "print": "طباعة",
+    "refresh": "تحديث",
+    "noData": "لم يتم العثور على بيانات",
+    "required": "حقل مطلوب",
+    "optional": "اختياري"
+  },
+
+  "language": {
+    "select": "اللغة",
+    "pt": "Português",
+    "es": "Español",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية",
+    "fa": "فارسی"
+  },
+
+  "landing": {
+    "heroTitle": "مركز إيبينيزر الخاص لإيواء الأسر",
+    "subtitle": "نظام جدولة المغسلة",
+    "accessButton": "الدخول باستخدام رمز الاستجابة السريعة",
+    "firstAccess": "أول زيارة؟ سجل الآن",
+    "section": {
+      "title": "وصول مبسط",
+      "description": "استخدم رمز الاستجابة السريعة الشخصي للوصول إلى جدول المغسلة. للمقيمين الجدد، يرجى التسجيل أدناه."
+    },
+    "features": {
+      "qr": { "title": "رمز الاستجابة السريعة", "description": "الوصول السريع باستخدام الكود الشخصي" },
+      "schedule": { "title": "الجدولة", "description": "احجز الغسالات والمجففات بسهولة" },
+      "secure": { "title": "آمن", "description": "نظام معتمد من الإدارة" }
+    },
+    "institution": {
+      "name": "مركز إيبينيزر الخاص لإيواء الأسر",
+      "address": "أف. بروفيسور إدغار سانتوس، رقم 780، فيلا نيوني، ساو باولو – SP، الرمز البريدي 03560-080",
+      "org": "مدينة ساو باولو / الأمانة البلدية للمساعدة والتنمية الاجتماعية"
+    },
+    "register": "تسجيل",
+    "enter": "دخول"
+  },
+
+  "login": {
+    "title": "الدخول إلى النظام",
+    "subtitle": "أدخل بيانات الاعتماد الخاصة بك للمتابعة",
+    "residentTab": "مقيم",
+    "adminTab": "مسؤول",
+    "roomNumber": "رقم الغرفة",
+    "roomPlaceholder": "مثال: 101",
+    "pin": "الرقم السري (4 أرقام)",
+    "pinPlaceholder": "****",
+    "adminToken": "رمز الوصول",
+    "adminTokenPlaceholder": "أدخل رمز المسؤول",
+    "enterButton": "دخول",
+    "entering": "جاري الدخول...",
+    "firstAccess": "أول زيارة؟",
+    "registerLink": "سجل الآن",
+    "fillAllFields": "يرجى ملء جميع الحقول",
+    "insertToken": "أدخل رمز الوصول"
+  },
+
+  "register": {
+    "title": "تسجيل المقيم",
+    "subtitle": "املأ بياناتك لطلب الوصول إلى النظام",
+    "steps": {
+      "form": "البيانات الشخصية",
+      "camera": "الصورة",
+      "success": "تم"
+    },
+    "name": "الاسم الكامل",
+    "namePlaceholder": "اسمك الكامل",
+    "roomNumber": "رقم الغرفة",
+    "roomPlaceholder": "مثال: 101",
+    "phone": "الهاتف",
+    "phonePlaceholder": "(11) 99999-9999",
+    "pin": "الرقم السري (4 أرقام)",
+    "pinPlaceholder": "****",
+    "pinConfirm": "تأكيد الرقم السري",
+    "pinMismatch": "الرقم السري غير متطابق",
+    "photo": "الصورة",
+    "photoRequired": "الصورة مطلوبة",
+    "takePhoto": "التقاط صورة",
+    "retakePhoto": "إعادة التقاط الصورة",
+    "next": "التالي",
+    "submit": "إرسال التسجيل",
+    "submitting": "جاري الإرسال...",
+    "success_title": "تم إرسال التسجيل!",
+    "success_message": "تم إرسال تسجيلك بنجاح. يرجى انتظار موافقة المسؤول قبل استخدام النظام.",
+    "pending": "الحالة: في انتظار الموافقة",
+    "backHome": "العودة إلى الصفحة الرئيسية",
+    "errors": {
+      "nameRequired": "الاسم مطلوب",
+      "roomRequired": "رقم الغرفة مطلوب",
+      "pinRequired": "الرقم السري مطلوب",
+      "pinLength": "الرقم السري يجب أن يكون 4 أرقام",
+      "photoRequired": "الصورة مطلوبة"
+    }
+  },
+
+  "dashboard": {
+    "tabs": {
+      "book": "حجز",
+      "myBookings": "حجوزاتي",
+      "profile": "الملف الشخصي"
+    },
+    "book": {
+      "title": "حجز آلة",
+      "selectDate": "اختيار التاريخ",
+      "selectType": "نوع الجهاز",
+      "washingMachine": "غسالة",
+      "dryer": "مجفف ملابس",
+      "available": "متاح",
+      "occupied": "محجوز",
+      "outOfService": "خارج الخدمة",
+      "maintenance": "صيانة",
+      "myBooking": "حجزي",
+      "noSlots": "لا توجد مواعيد متاحة لهذا التاريخ",
+      "confirmTitle": "تأكيد الحجز",
+      "confirmMessage": "هل تريد تأكيد الحجز لـ {{machine}} من {{start}} إلى {{end}} في {{date}}؟",
+      "bookButton": "تأكيد",
+      "pendingConfirmation": "في انتظار التأكيد",
+      "ruleWarning": "لا يمكن حجز أكثر من آلة في نفس الوقت"
+    },
+    "myBookings": {
+      "title": "حجوزاتي",
+      "upcoming": "القادمة",
+      "past": "السجل",
+      "empty": "ليس لديك أي حجوزات",
+      "cancelButton": "إلغاء",
+      "cancelConfirm": "هل تريد إلغاء هذا الحجز؟",
+      "cancelWarning": "يجب إجراء الإلغاء قبل ساعة واحدة على الأقل من الموعد",
+      "checkIn": "تسجيل الوصول",
+      "statuses": {
+        "PENDING_CONFIRMATION": "في انتظار التأكيد",
+        "CONFIRMED": "تم التأكيد",
+        "CANCELLED_BY_RESIDENT": "ألغيته أنت",
+        "CANCELLED_BY_ADMIN": "ألغاه المسؤول",
+        "COMPLETED": "تم",
+        "NO_SHOW": "لم يحضر"
+      }
+    },
+    "profile": {
+      "title": "ملفي الشخصي",
+      "room": "الغرفة",
+      "phone": "الهاتف",
+      "status": "الحالة",
+      "memberSince": "مقيم منذ",
+      "totalBookings": "إجمالي الحجوزات",
+      "noShows": "عدم الحضور",
+      "logout": "خروج من النظام"
+    },
+    "header": {
+      "greeting": "مرحباً، {{name}}",
+      "adminPanel": "لوحة المسؤول",
+      "logout": "خروج"
+    }
+  },
+
+  "admin": {
+    "header": {
+      "title": "لوحة الإدارة",
+      "subtitle": "مركز إيبينيزر — إدارة المغسلة"
+    },
+    "tabs": {
+      "dashboard": "لوحة التحكم",
+      "schedule": "الجدول",
+      "approvals": "الموافقات",
+      "machines": "الآلات",
+      "users": "المقيمون",
+      "analytics": "التحليلات",
+      "audit": "المراجعة",
+      "settings": "الإعدادات"
+    },
+    "dashboard_tab": {
+      "todayBookings": "حجوزات اليوم",
+      "pendingApprovals": "الموافقات المعلقة",
+      "machinesOutOfService": "الآلات خارج الخدمة",
+      "noShowsWeek": "عدم الحضور (7 أيام)",
+      "totalResidents": "إجمالي المقيمين",
+      "confirmedToday": "تم التأكيد اليوم"
+    },
+    "schedule": {
+      "title": "جدول اليوم",
+      "selectDate": "اختيار التاريخ",
+      "printPDF": "طباعة / PDF",
+      "allMachines": "جميع الآلات",
+      "confirm": "تأكيد",
+      "cancel": "إلغاء",
+      "amend": "تعديل",
+      "noBookings": "لا توجد حجوزات لهذا التاريخ"
+    },
+    "approvals": {
+      "title": "الموافقات المعلقة",
+      "empty": "لا يوجد تسجيل في انتظار الموافقة",
+      "approve": "موافقة",
+      "reject": "رفض",
+      "rejectReason": "سبب الرفض",
+      "rejectReasonPlaceholder": "أدخل السبب...",
+      "approvedBy": "تمت الموافقة من قبل",
+      "registeredAt": "تم التسجيل في"
+    },
+    "machines": {
+      "title": "إدارة الآلات",
+      "add": "إضافة آلة",
+      "addTitle": "آلة جديدة",
+      "name": "اسم الآلة",
+      "namePlaceholder": "مثال: آلة 04",
+      "type": "النوع",
+      "washingMachine": "غسالة",
+      "dryer": "مجفف ملابس",
+      "status": "الحالة",
+      "active": "نشطة",
+      "outOfService": "خارج الخدمة",
+      "maintenance": "صيانة",
+      "statusNote": "ملاحظة الحالة",
+      "statusNotePlaceholder": "مثال: في انتظار قطعة الغيار",
+      "remove": "إزالة الآلة",
+      "removeConfirm": "تأكيد إزالة {{name}}؟ لا يمكن التراجع عن هذا الإجراء.",
+      "saveStatus": "حفظ الحالة"
+    },
+    "users": {
+      "title": "إدارة المقيمين",
+      "search": "البحث عن مقيم...",
+      "filterRole": "تصفية حسب الدور",
+      "filterStatus": "تصفية حسب الحالة",
+      "name": "الاسم",
+      "room": "الغرفة",
+      "role": "الدور",
+      "status": "الحالة",
+      "bookings": "الحجوزات",
+      "registeredAt": "تم التسجيل في",
+      "actions": "الإجراءات",
+      "changeRole": "تغيير الدور",
+      "suspend": "تعليق",
+      "unsuspend": "إعادة تفعيل",
+      "delete": "حذف",
+      "deleteConfirm": "تأكيد حذف {{name}}؟ هذا الإجراء لا رجعة فيه.",
+      "roles": {
+        "MASTER_ADMIN": "المسؤول الرئيسي",
+        "OPERATIONAL_ADMIN": "المسؤول التشغيلي",
+        "VIEWER": "المشاهد",
+        "RESIDENT": "مقيم"
+      },
+      "statuses": {
+        "PENDING": "في الانتظار",
+        "APPROVED": "تمت الموافقة",
+        "REJECTED": "مرفوض",
+        "SUSPENDED": "موقوف"
+      }
+    },
+    "amendment": {
+      "title": "تعديل الحجز",
+      "reason": "سبب التعديل",
+      "reasonPlaceholder": "وصف سبب التعديل (مطلوب)...",
+      "newSlot": "الموعد الجديد",
+      "submit": "تأكيد التعديل",
+      "reasonRequired": "سبب التعديل مطلوب"
+    },
+    "analytics": {
+      "title": "التحليلات والتقارير",
+      "period": {
+        "7days": "آخر 7 أيام",
+        "30days": "آخر 30 يوماً",
+        "90days": "آخر 90 يوماً",
+        "custom": "مخصص"
+      },
+      "charts": {
+        "utilization": "الاستخدام حسب الآلة",
+        "bookingTrend": "اتجاه الحجوزات",
+        "heatmap": "الأوقات الأكثر طلباً",
+        "noShowRate": "معدل عدم الحضور",
+        "topResidents": "المقيمون الأكثر نشاطاً"
+      },
+      "exportCSV": "تصدير CSV",
+      "exportPDF": "تصدير PDF"
+    },
+    "audit": {
+      "title": "سجل المراجعة",
+      "user": "المستخدم",
+      "action": "الإجراء",
+      "target": "الهدف",
+      "date": "التاريخ/الوقت",
+      "noLogs": "لم يتم العثور على سجلات"
+    },
+    "settings": {
+      "title": "إعدادات النظام",
+      "maxBookingsPerDay": "الحد الأقصى للحجوزات يومياً (لكل مقيم)",
+      "bookingWindowDays": "نافذة الحجز (أيام مقدماً)",
+      "cancellationWindowHours": "موعد الإلغاء (ساعات قبل الموعد)",
+      "language": "اللغة الافتراضية للمنصة",
+      "google": {
+        "title": "تكامل Google",
+        "sheets": "Google Sheets",
+        "calendar": "Google Calendar",
+        "syncNow": "مزامنة الآن",
+        "lastSync": "آخر مزامنة"
+      },
+      "notifications": {
+        "title": "الإشعارات",
+        "email": "البريد الإلكتروني",
+        "whatsapp": "واتساب"
+      },
+      "save": "حفظ الإعدادات"
+    }
+  },
+
+  "machines": {
+    "WASHING_MACHINE": "غسالة",
+    "DRYER": "مجفف ملابس",
+    "statuses": {
+      "ACTIVE": "نشطة",
+      "OUT_OF_SERVICE": "خارج الخدمة",
+      "MAINTENANCE": "صيانة"
+    }
+  },
+
+  "errors": {
+    "generic": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+    "unauthorized": "ليس لديك إذن لتنفيذ هذا الإجراء.",
+    "notFound": "الصفحة غير موجودة.",
+    "serverError": "خطأ في الخادم. يرجى المحاولة لاحقاً.",
+    "doubleBooking": "لديك حجز بالفعل في هذا الوقت.",
+    "slotTaken": "تم حجز هذا الموعد بالفعل.",
+    "machineOutOfService": "هذه الآلة خارج الخدمة.",
+    "pendingApproval": "تسجيلك في انتظار الموافقة.",
+    "rejected": "تم رفض تسجيلك. يرجى التواصل مع الإدارة.",
+    "suspended": "حسابك موقوف. يرجى التواصل مع الإدارة.",
+    "masterAdminQuorum": "لا يمكن تقليل عدد المسؤولين الرئيسيين إلى أقل من 3."
+  },
+
+  "notifications": {
+    "bookingCreated": "تم إنشاء الحجز بنجاح!",
+    "bookingConfirmed": "تم تأكيد حجزك.",
+    "bookingCancelled": "تم إلغاء الحجز.",
+    "bookingAmended": "تم تعديل حجزك من قبل المسؤول.",
+    "registrationApproved": "تمت الموافقة على تسجيلك! أهلاً بك.",
+    "registrationRejected": "تم رفض تسجيلك.",
+    "machineStatusUpdated": "تم تحديث حالة الآلة.",
+    "userRoleUpdated": "تم تحديث دور المستخدم.",
+    "settingsSaved": "تم حفظ الإعدادات بنجاح."
+  },
+
+  "pdf": {
+    "title": "جدول المغسلة",
+    "date": "التاريخ",
+    "schedule": "الموعد",
+    "machine": "الآلة",
+    "nameRoom": "الاسم والغرفة",
+    "ose": "OSE المسؤول",
+    "footer": "لا يجب حجز أكثر من آلة لنفس المقيم في نفس الوقت.",
+    "generated": "تم الإنشاء في"
+  },
+
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "message": "الصفحة التي تبحث عنها غير موجودة.",
+    "backHome": "العودة إلى الصفحة الرئيسية"
+  },
+
+  "waitlist": {
+    "join": "الانضمام إلى قائمة الانتظار",
+    "joined": "أنت في قائمة الانتظار لهذا الموعد.",
+    "notified": "سيتم إشعارك إذا أصبح الموعد متاحاً."
+  }
+}
