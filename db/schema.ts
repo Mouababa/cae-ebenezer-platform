@@ -1,7 +1,6 @@
 import {
   mysqlTable,
   mysqlEnum,
-  serial,
   varchar,
   text,
   timestamp,
@@ -11,7 +10,7 @@ import {
 
 // ── Admin users (KIMI OAuth or local admin) ────────────────────────────
 export const users = mysqlTable("users", {
-  id: serial("id").primaryKey(),
+  id: int("id").autoincrement().primaryKey(),
   unionId: varchar("unionId", { length: 255 }).notNull().unique(),
   name: varchar("name", { length: 255 }),
   email: varchar("email", { length: 320 }),
@@ -29,7 +28,7 @@ export type InsertUser = typeof users.$inferInsert;
 
 // ── Shelter residents ──────────────────────────────────────────────────
 export const residents = mysqlTable("residents", {
-  id: serial("id").primaryKey(),
+  id: int("id").autoincrement().primaryKey(),
   name: varchar("name", { length: 255 }).notNull(),
   roomNumber: varchar("roomNumber", { length: 10 }).notNull(),
   phone: varchar("phone", { length: 20 }),
@@ -48,7 +47,7 @@ export type InsertResident = typeof residents.$inferInsert;
 
 // ── Machines ───────────────────────────────────────────────────────────
 export const machines = mysqlTable("machines", {
-  id: serial("id").primaryKey(),
+  id: int("id").autoincrement().primaryKey(),
   name: varchar("name", { length: 50 }).notNull(),
   type: mysqlEnum("type", ["WASHING_MACHINE", "DRYER"]).notNull(),
   status: mysqlEnum("status", ["ACTIVE", "OUT_OF_SERVICE", "MAINTENANCE"]).default("ACTIVE").notNull(),
@@ -62,7 +61,7 @@ export type InsertMachine = typeof machines.$inferInsert;
 
 // ── Bookings ───────────────────────────────────────────────────────────
 export const bookings = mysqlTable("bookings", {
-  id: serial("id").primaryKey(),
+  id: int("id").autoincrement().primaryKey(),
   residentId: bigint("residentId", { mode: "number", unsigned: true }).notNull(),
   machineId: bigint("machineId", { mode: "number", unsigned: true }).notNull(),
   date: varchar("date", { length: 10 }).notNull(),         // "2026-06-01"
@@ -88,7 +87,7 @@ export type InsertBooking = typeof bookings.$inferInsert;
 
 // ── Audit logs ─────────────────────────────────────────────────────────
 export const auditLogs = mysqlTable("audit_logs", {
-  id: serial("id").primaryKey(),
+  id: int("id").autoincrement().primaryKey(),
   userId: bigint("userId", { mode: "number", unsigned: true }),
   userName: varchar("userName", { length: 255 }),
   action: varchar("action", { length: 100 }).notNull(),
@@ -101,7 +100,7 @@ export type AuditLog = typeof auditLogs.$inferSelect;
 
 // ── Settings ───────────────────────────────────────────────────────────
 export const settings = mysqlTable("settings", {
-  id: serial("id").primaryKey(),
+  id: int("id").autoincrement().primaryKey(),
   key: varchar("key", { length: 100 }).notNull().unique(),
   value: text("value"),
   updatedAt: timestamp("updatedAt").defaultNow().notNull().$onUpdate(() => new Date()),
